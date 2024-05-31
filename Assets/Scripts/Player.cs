@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     private Rigidbody2D playerRB;
     public float jumpForce;
+    public bool isAlive;
     // Start is called before the first frame update
     void Start()
     {
