@@ -39,6 +39,7 @@
      <Compile Include="Assets/Scripts/Player.cs" />
      <Compile Include="Assets/Scripts/Move.cs" />
      <Compile Include="Assets/Scripts/RepeatPlatform.cs" />
+     <Compile Include="Assets/Scripts/cameraController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
