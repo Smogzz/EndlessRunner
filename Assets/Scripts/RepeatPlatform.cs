@@ -12,7 +12,7 @@ public class RepeatPlatform : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnBase", 2.0f, 2.0f);
+        InvokeRepeating("SpawnBase", 0.5f, 2.0f);
         playerScript = GameObject.Find("Player").GetComponent<Player>();
     }
 
