@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space) && canJump == true)
         {
-            playerRB.AddForce(new Vector2(0,1) * jumpForce, ForceMode2D.Impulse);
+            playerRB.AddForce(new Vector2(0,1.5f) * jumpForce, ForceMode2D.Impulse);
             canJump = false;
             Debug.Log("space key was pressed");
         }
